@@ -22,8 +22,10 @@ int main(){
         cin >> lista[i];
     }
     cin >> nome;
+    
+    bool x=controllo(lista, nome, c);
 
-    if (controllo(lista, nome, c))
+    if (x==true)
     {
         cout << c;
     }
